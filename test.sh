@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #arquivo=$1
-#dir=~/dev/workspace/qless/qless-asc/code/client/admin
+#dir=~/dev/workspace/OCULTADO/admin
 tatu=SERVICE.ATTENDANCES.COUNTER_TIP.ON_HOLD
 arr=(carro)
 #declare -A arr
@@ -17,7 +17,7 @@ while read linha
 #for linha in $(cat arq.txt)
 do
 	#bash sam.sh $linha
-	#cd ~/dev/workspace/qless/qless-asc/code/client/admin
+	#cd ~/dev/workspace/OCULTADO/admin
 	#echo $linha
 	#linecount=$((linecount + 1))
 	#echo $linecount
@@ -38,7 +38,7 @@ done < arq.txt
 
 roda(){
 	for i in `echo ${arr[*]}`; do
-		cd ~/dev/workspace/qless/qless-asc/code/client/admin
+		cd ~/dev/workspace/OCULTADO/admin
 		grep -r -l -w $i
 
 		if [ ! $? -eq 0 ]
