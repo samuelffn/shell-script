@@ -56,11 +56,11 @@ then
 fi
 
 for i in `echo ${arr[*]}`; do
-    #cd ~/dev/workspace/qless/qless-asc/code/client/admin
-    #cd ~/dev/workspace/qless/qless-asc/code/client/attendants
-    #cd ~/dev/workspace/qless/qless-asc/code/client/smart-queues
-    #cd ~/dev/workspace/qless/qless-asc/code/client/totem
-    cd ~/dev/workspace/qless/qless-asc/code/client/tv
+    #cd ~/dev/workspace/OCULTADO/admin
+    #cd ~/dev/workspace/OCULTADO/client/attendants
+    #cd ~/dev/workspace/OCULTADO
+    #cd ~/dev/workspace/OCULTADO
+    cd ~/dev/workspace/OCULTADO/tv
 
     grep -r -l -w $i
 
