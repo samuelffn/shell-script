@@ -2,7 +2,7 @@
 
 #linha=SERVICE.ATTENDANCES.COUNTER_TIP.ON_HOLD
 
-cd ~/dev/workspace/qless/qless-asc/code/client/admin
+cd ~/dev/workspace/OCULTADO
 
 grep -r -l -w $1
 
